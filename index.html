@@ -25,8 +25,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
-
-
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -42,7 +40,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse bg-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-inverse bg-faded">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -51,26 +49,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Jim Smith</a>
+
+
+          <a class="navbar-brand" href="#">
+            <img src="jim.png" width="25" height="25" class="d-inline-block align-top img-rounded"  alt="">
+            &nbsp;&nbsp;Jim Smith
+          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
             <li><a href="#about"><i class="fa fa-question-circle fa-lg"></i> About</a></li>
-            <li><a href="#contact"><i class="fa fa-envelope fa-lg"></i> Email Me</a></li>
+            <li><a href="mailto:mail@j-s-m-i-t-h.com" target="_blank" class="d-inline-block align-top"><i class="fa fa-envelope fa-lg"></i> Email Me</a></li>
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Misc. <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="../navbar/"><i class="fa fa-bitcoin fa-lg"></i> Send me bitcoin</a></li>
-                <li><a href="#">Another action</a></li>
+
+                <li><a href="blog"><i class="fa fa-pencil-square fa-lg"></i> My Blog</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li class="dropdown-header">Random</li>
+                <li><a href="bitcoin:<address>"><i class="fa fa-bitcoin fa-lg"></i> Send me bitcoin</a></li>
               </ul>
             </li>
           </ul>
@@ -90,7 +92,7 @@
             </div>
 
             <div class="col-xs-8">
-              <span class="introbox">Hi, I'm JIM.&nbsp;</span>
+              <span class="introbox">Hi, I'm Jim.&nbsp;</span>
               <i class="fa fa-arrow-circle-right fa-2x"></i>
             </div>
 
@@ -109,19 +111,19 @@
             </div>
 
             <div class="col-xs-3">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/jamesimsmith" target="_blank">
                 <i class="fa fa-linkedin-square fa-4x" data-toggle="tooltip" title="LinkedIn / Resume"></i>
               </a>
             </div>
 
             <div class="col-xs-4">
-              <a href="#">
+              <a href="https://github.com/jimbo88" target="_blank">
                 <i class="fa fa-github fa-4x" data-toggle="tooltip" title="Code @ GitHub"></i>
               </a>
             </div>
 
             <div class="col-xs-3">
-              <a href="#">
+              <a href="https://twitter.com/jimsm1th" target="_blank">
                 <i class="fa fa-twitter fa-4x" data-toggle="tooltip" title="Twitter: @jimsm1th"></i>
               </a>
             </div>
@@ -141,7 +143,7 @@
             </div>
 
             <div class="col-xs-4">
-              <a href="#">
+              <a href="blog">
                 <i class="fa fa-pencil-square fa-4x" data-toggle="tooltip" title="My Blog"></i>
               </a>
             </div>
@@ -162,19 +164,20 @@
             </div>
 
             <div class="col-xs-3">
-              <a href="#">
+              <a href="https://bitbucket.org/jimbo88/" target="_blank">
                 <i class="fa fa-bitbucket fa-4x" data-toggle="tooltip" title="Code @ BitBucket"></i>
               </a>
             </div>
 
             <div class="col-xs-4" >
-              <a href="#">
+              <a href="https://soundcloud.com/jimb0b" target="_blank">
                 <i class="fa fa-soundcloud fa-4x" data-toggle="tooltip" title="My Music on SoundCloud"></i>
               </a>
             </div>
 
             <div class="col-xs-3">
-              <!-- <a href="#">
+              <!-- Ask me in person if you want to be friends
+              <a href="#">
                 <i class="fa fa-facebook-square fa-4x" data-toggle="tooltip" title="My Facebook profile"></i>
               </a> -->
             </div>
